@@ -10,7 +10,7 @@
 
 <script>
 // @ is an alias to /src
-import FocusNews from "@/components/FocusNews.vue";
+import FocusNews from "@/components/FocusNews/FocusNews.vue";
 
 export default {
   name: "home",

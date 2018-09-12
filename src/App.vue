@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <Head></Head>
+  
     <router-view/>
+      <Footer></Footer>
   </div>
 </template>
 
 
 <script>
-import Head from './components/Head.vue'
+import Head from './components/Head/Head.vue'
+import Footer from './components/Footer/Footer.vue'
 
 export default {
   name:'App',
   components: {
-    Head
+    Head,
+    Footer
   }
 }
 </script>
@@ -43,4 +47,13 @@ body{
     height: 0
 }
 
+ul{
+  list-style: none;
+  margin: 0;
+  padding:0;
+
+}
+a{
+  text-decoration: none;
+}
 </style>
